@@ -1,0 +1,49 @@
+html, body{
+  height: 100%;
+}
+
+.App{
+  height: 100%;
+}
+
+#nav{
+  background-color: #E5E6F0;
+  display: flex;
+}
+
+#about-div{
+  padding: 15px 15px 15px 15px;
+}
+
+#try-div{
+  padding: 15px 15px 15px 15px;
+}
+
+#title{
+  background: -webkit-linear-gradient(#093A50, #3796C2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#title-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 15px;
+  border-left: 2px solid #093A50;
+  border-right: 2px solid #3796C2;
+}
+
+#logo{
+  height: 125px;
+  width: 125px;
+}
+
+@media(max-width: 600px){
+  #logo{
+    display: none;
+  }
+
+  #title-div{
+  }
+}

@@ -1,0 +1,44 @@
+html, body{
+    width: 100%;
+}
+
+.person{
+    border-radius: 15px;
+    border-left: 2px solid #093A50;
+    border-right: 2px solid #3796C2;
+}
+img{
+    height: 125px;
+    width: 125px;
+}
+
+#descr{
+    margin-left: 30px;
+}
+
+#descl{
+    margin-right: 30px;
+}
+
+@media(max-width: 600px){
+    img{
+        margin-bottom: 30px;
+    }
+
+    #ek{
+        transform: rotate(-90deg);
+    }
+
+    .col-s6{
+        text-align: center;
+        justify-content: center;
+    }
+
+    #descr{
+        margin-left: 0px;
+    }
+
+    #descl{
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,11 @@
+#card-div{
+    background-image: linear-gradient(to bottom right, #093A50, #3796C2);
+}
+
+#card-header{
+    color: white;
+}
+
+#graph-header{
+    color: #00FFFB;
+}

@@ -1,0 +1,14 @@
+#card-div{
+    background-image: linear-gradient(to bottom right, #093A50, #3796C2);
+}
+
+#card-title{
+    background: -webkit-linear-gradient(#343A40,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+#description{
+    color: white;
+}
