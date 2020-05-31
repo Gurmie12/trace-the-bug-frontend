@@ -45,7 +45,7 @@ function About(){
                     <div className="col-s6" id="descr">
                         <h2>Gurman Brar</h2>
                         <p>Software Developer At Veer AI (University of Waterloo '24)</p>
-                        <p className="text-muted">Aspiring web developer with an intrest in biotechnology</p>
+                        <p className="text-muted">Aspiring web developer with an interest in biotechnology</p>
                     </div>
                 </div>
                 <div className="row mb-5 justify-content-center person" data-aos="fade-left">
