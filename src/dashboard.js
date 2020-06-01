@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './dashboard.css';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 
+
 function Dashboard(data){
     const [info, setData] = useState(data.data);
     const [graphData, setGraphData] = useState([]);
